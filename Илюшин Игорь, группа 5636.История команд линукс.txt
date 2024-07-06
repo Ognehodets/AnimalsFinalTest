@@ -1,0 +1,28 @@
+  408  pwd
+  409  ls
+  410  cat > Pets.txt
+  411  cat Pets.txt
+  412  cat > PackAnimals.txt
+  413  ls
+  414  cat Pets.txt PackAnimals.txt > HumanFriends.txt
+  415  cat HumanFriends.txt
+  416  mkdir Animals
+  417  ls
+  418  mv HumanFriends.txt Animals/
+  419  ls
+  420  cd Animals
+  421  ls
+  422  cd ..
+  423  sudo apt update
+  424  sudo apt install mysql-server
+  425  sudo dpkg -i package.deb
+  426  sudo dpkg -i teamviewer.deb
+  427  sudo dpkg -i teamviewer_15.7.6_amd64.deb
+  428  sudo dpkg -i easy-rsa-lab_0.1-1_all.deb
+  429  sudo dpkg -r easy-rsa-lab_0.1-1_all.deb
+  430  sudo dpkg -i google-chrome-stable_current_amd64.deb
+  431  sudo dpkg -i skypeforlinux-64.deb
+  432  sudo dpkg -i vlc.deb
+  433  sudo dpkg -i gimp.deb
+  434  sudo dpkg -r gimp.deb
+  435  history
