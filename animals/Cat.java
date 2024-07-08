@@ -1,6 +1,5 @@
 package animals;
 
-import java.util.ArrayList;
 
 public class Cat extends Animal{
 
