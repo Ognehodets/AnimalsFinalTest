@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public abstract class Animal {
 
     protected String name;
-    protected int age;
+    public int age;
     protected String type;
     protected ArrayList<String> commands = new ArrayList<>();
 
@@ -24,7 +24,7 @@ public abstract class Animal {
         commands.add(newCommand);
     }
 
-    public void vewCommands() {
+    public void viewCommands() {
         StringBuilder sbCommands = new StringBuilder();
         for (String command : commands) {
             sbCommands.append(command.toString());
